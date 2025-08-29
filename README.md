@@ -7,6 +7,20 @@ Primeiro, execute o servidor de desenvolvimento:
 ```bash
 npm run dev
 ```
+ou
+```
+yarn install
+```
+ou
+```
+pnpm install
+```
+ou
+```
+yarn dev
+npm run dev
+```
+
 
 Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o resultado.
 
