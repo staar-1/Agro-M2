@@ -27,3 +27,20 @@ Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o
 Você pode começar a editar a página modificando `app/page.tsx`. A página é atualizada automaticamente conforme você edita o arquivo.
 
 Este projeto utiliza [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) para otimizar e carregar automaticamente [Geist](https://vercel.com/font), uma nova família de fontes para Vercel.
+
+
+## COMMITS DO CÓDIGO
+0. Utilizei o auxilio da IA GEMINI para me ajudar com a programação das linguagens que 
+1. feat: Primeiro configurei o projeto inicial com Next.js, TypeScript e Tailwind
+2. feat: Instalei e configurei o Redux e o Shadcn UI
+3. feat: Adicionei os componentes Card e Skeleton do Shadcn
+4. feat: No src/lib configurei o store do Redux
+5. feat: Criando o serviço de API - Serviço de posts com RTK Query -> src/services/postsApi.ts
+6. feat: Conectado o serviço de API ao store do Redux
+7. feat: Criado o componente Providers para o Redux & src/components/Providers.tsx
+8. feat: Criado o componente PostsList para buscar os dados & src/components/PostsList.tsx
+9. feat: Adicionado o tratamento de estados de loading e erro com "isLoading" 
+10. feat: Renderizados os posts em cartões -- Usando o "card" do "Shadcn"
+11. feat: src/app/page.tsx, Integrei o componente PostsList na página principal
+12: fix: Utilizei uma API brasileira para dar dados em "PT-BR"
+13: NPM RUN DEV para rodar o site
